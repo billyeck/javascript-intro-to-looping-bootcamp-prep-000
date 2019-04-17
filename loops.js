@@ -7,7 +7,7 @@ function forLoop(ary){
     } else {
       ary.push(`I am ${i} strange loops.`)
     }
-  }
+  } return ary;
 }
 
 function whileLoop(n){
