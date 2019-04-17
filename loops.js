@@ -3,7 +3,7 @@ var a=1;
 function forLoop(ary){
   for (let i=0; i<25; i++){
     if (i===1){
-      ary.push("I am one strange loop.");
+      ary.push("I am 1 strange loop.");
     } else {
       ary.push(`I am ${i} strange loops.`)
     }
