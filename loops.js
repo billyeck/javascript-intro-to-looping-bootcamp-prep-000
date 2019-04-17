@@ -1,7 +1,13 @@
 var a=1;
 
 function forLoop(ary){
-  
+  for (var i=1; i<26; i++){
+    if (i=1){
+      ary.push("I am one strange loop.");
+    } else {
+      ary.push(`I am ${i} strange loops.`)
+    }
+  }
 }
 
 function whileLoop(n){
