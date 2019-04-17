@@ -1,7 +1,7 @@
 var a=1;
 
 function forLoop(ary){
-  for (var i=0; i<25; i++){
+  for (let i=0; i<25; i++){
     if (i=1){
       ary.push("I am one strange loop.");
     } else {
